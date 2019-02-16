@@ -249,7 +249,7 @@ user_pref("browser.fixup.hide_user_pass", true);
 
 // PREF: Send DNS request through SOCKS when SOCKS proxying is in use
 // https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/WebBrowsers
-user_pref("network.proxy.socks_remote_dns",			true);
+user_pref("network.proxy.socks_remote_dns",			false);
 
 // PREF: Don't monitor OS online/offline connection state
 // https://trac.torproject.org/projects/tor/ticket/18945
@@ -567,7 +567,7 @@ user_pref("loop.logDomains",					false);
 // PREF: Enforce checking for Firefox updates
 // http://kb.mozillazine.org/App.update.enabled
 // NOTICE: Update check page might incorrectly report Firefox ESR as out-of-date
-user_pref("app.update.enabled",                 true);
+user_pref("app.update.enabled",                 false);
 
 // PREF: Enable blocking reported web forgeries
 // https://wiki.mozilla.org/Security/Safe_Browsing
