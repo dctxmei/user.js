@@ -249,7 +249,7 @@ user_pref("browser.fixup.hide_user_pass", true);
 
 // PREF: Send DNS request through SOCKS when SOCKS proxying is in use
 // https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/WebBrowsers
-user_pref("network.proxy.socks_remote_dns",			false);
+user_pref("network.proxy.socks_remote_dns",			true);
 
 // PREF: Don't monitor OS online/offline connection state
 // https://trac.torproject.org/projects/tor/ticket/18945
