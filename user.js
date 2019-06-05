@@ -736,11 +736,11 @@ user_pref("privacy.firstparty.isolate",				true);
 user_pref("network.cookie.thirdparty.sessionOnly",		true);
 
 // PREF: Spoof User-agent (enabled)
-user_pref("general.useragent.override",				"Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0");
-user_pref("general.appname.override",				"Netscape");
-user_pref("general.appversion.override",			"5.0 (Windows)");
-user_pref("general.platform.override",				"Win32");
-user_pref("general.oscpu.override",				"Windows NT 6.1");
+user_pref("general.useragent.override",				"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36");
+user_pref("general.appname.override",				"Chrome");
+user_pref("general.appversion.override",			"70.0.3538.77");
+user_pref("general.platform.override",				"Win64");
+user_pref("general.oscpu.override",				"Windows NT 10.0");
 
 /*******************************************************************************
  * SECTION: Caching                                                            *
