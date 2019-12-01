@@ -523,7 +523,7 @@ user_pref("privacy.trackingprotection.pbmode.enabled",		true);
 // https://wiki.mozilla.org/Security/Contextual_Identity_Project/Containers
 user_pref("privacy.userContext.enabled",			true);
 
-// PREF: Disable Firefox's anti-fingerprinting mode ("resist fingerprinting" or RFP) (Tor Uplift project)
+// PREF: Enable Firefox's anti-fingerprinting mode ("resist fingerprinting" or RFP) (Tor Uplift project)
 // https://wiki.mozilla.org/Security/Tor_Uplift/Tracking
 // https://bugzilla.mozilla.org/show_bug.cgi?id=1333933
 // https://wiki.mozilla.org/Security/Fingerprinting
@@ -737,12 +737,12 @@ user_pref("privacy.firstparty.isolate",				true);
 // https://developer.mozilla.org/en-US/docs/Cookies_Preferences_in_Mozilla#network.cookie.thirdparty.sessionOnly
 user_pref("network.cookie.thirdparty.sessionOnly",		true);
 
-// PREF: Spoof User-agent (enabled)
-user_pref("general.useragent.override",				"Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.13; ko; rv:1.9.1b2) Gecko/20081201 Firefox/60.0");
-user_pref("general.appname.override",				"Firefox");
-user_pref("general.appversion.override",			"60.0");
-user_pref("general.platform.override",				"Macintosh");
-user_pref("general.oscpu.override",				"Intel Mac OS X 10.13");
+// PREF: Spoof User-agent (disabled)
+//user_pref("general.useragent.override",				"Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0");
+//user_pref("general.appname.override",				"Netscape");
+//user_pref("general.appversion.override",			"5.0 (Windows)");
+//user_pref("general.platform.override",				"Win32");
+//user_pref("general.oscpu.override",				"Windows NT 6.1");
 
 /*******************************************************************************
  * SECTION: Caching                                                            *
